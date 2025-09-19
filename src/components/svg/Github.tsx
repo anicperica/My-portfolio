@@ -1,10 +1,10 @@
 import type { IconProps } from "../../types";
 
 export default function GithubIcon({
-  className = "text-black",  // default boja linija
+  className = "text-black",  
   width = "25",
   height = "25",
-  fill = "none",            // opcionalno ispuna
+  fill = "none",           
 }: IconProps) {
   return (
     <svg
@@ -13,7 +13,7 @@ export default function GithubIcon({
       height={height}
       viewBox="0 0 24 24"
       fill={fill}
-      stroke="currentColor"       // koristi currentColor za stroke
+      stroke="currentColor"       
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
