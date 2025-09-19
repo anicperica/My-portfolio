@@ -14,7 +14,7 @@ export default function Navbar() {
     { name: "Contact", id: "#contact" },
   ];
   return (
-    <div className=" relative flex w-full py-3 px-5 md:px-25 justify-between items-center bg-primary">
+    <div className=" relative z-50 flex w-full py-3 px-5 md:px-25 justify-between items-center border-b border-gray-600 bg-primary">
       <div>
         <h1 className="text-customRed text-2xl  hover:scale-105 transition-transform duration-300">
           &lt;Dev/&gt;
@@ -42,7 +42,7 @@ export default function Navbar() {
         {isOpen ? (
           <X className="text-white" />
         ) : (
-          <Menu className="text-white " />
+          <Menu className="text-white " width={20} height={20} />
         )}
       </button>
       {isOpen && <MenuCard />}

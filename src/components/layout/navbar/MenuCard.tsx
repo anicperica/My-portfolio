@@ -10,7 +10,7 @@ export default function MenuCard() {
     { name: "Contact", id: "#contact" },
   ];
   return (
-    <div className="absolute w-full flex flex-col justify-center items-start px-5 border-b border-secondary  top-14 left-0 bg-primary md:hidden">
+    <div className="absolute w-full flex flex-col justify-center items-start px-5 border-b border-secondary  top-14 left-0 bg-primary md:hidden  ">
       <NavLinks
         className="flex w-full flex-col gap-3 pb-3 text-white  "
         links={navLinks}

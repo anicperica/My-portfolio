@@ -7,4 +7,5 @@
   --color-secondary:#6D7275;
   --color-customRed:#C20114;
 
-}
+  --shadow-redGlow: 0 0 150px 4px rgba(194, 1, 20, 0.3);
+} 
